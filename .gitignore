@@ -1,7 +1,12 @@
 HELP.md
+<<<<<<< HEAD
 .gradle
 build/
 !gradle/wrapper/gradle-wrapper.jar
+=======
+target/
+!.mvn/wrapper/maven-wrapper.jar
+>>>>>>> 7d4b2cf20daa4ddf557dec6b5cf061b313099e84
 !**/src/main/**
 !**/src/test/**
 
@@ -19,7 +24,10 @@ build/
 *.iws
 *.iml
 *.ipr
+<<<<<<< HEAD
 out/
+=======
+>>>>>>> 7d4b2cf20daa4ddf557dec6b5cf061b313099e84
 
 ### NetBeans ###
 /nbproject/private/
@@ -27,6 +35,10 @@ out/
 /dist/
 /nbdist/
 /.nb-gradle/
+<<<<<<< HEAD
+=======
+build/
+>>>>>>> 7d4b2cf20daa4ddf557dec6b5cf061b313099e84
 
 ### VS Code ###
 .vscode/
